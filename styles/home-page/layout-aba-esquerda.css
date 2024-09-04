@@ -37,7 +37,7 @@
 }
 
 .pages .container-left .left-perfil .left-user a{
-    color: #e4e4e4e4;
+    color: #ffffffff;
     text-decoration: none;
 }
 
@@ -63,12 +63,12 @@
 
 .pages .container-left .left-abas ul li a{
     text-decoration: none;
-    color: #e4e4e4e4;    
+    color: #ffffffff;    
 }
 
 .pages .container-left .left-abas ul li .new-post{
     background-color: #9747FF;
-    color: #e4e4e4e4;
+    color: #ffffffff;
     border-radius: 14px;
     width: 100%;
     height: 100%;
