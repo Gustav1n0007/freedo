@@ -1,0 +1,36 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 500;
+    font-size: 32px;
+    color: #e4e4e4e4;
+}
+
+.pages{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2D3250;
+    display: flex;
+}
+
+.pages .container-left{
+    border-right: 1px solid #424769;
+    width: 25%;
+    height: 100%;
+}
+
+.pages .container-center{
+    border-right: 1px solid #424769;
+    width: 50%;
+    height: 100%;
+}
+
+.pages .container-right{
+    width: 25%;
+    height: 100%;
+}
