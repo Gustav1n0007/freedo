@@ -1,0 +1,33 @@
+.pages .container-center .top{
+    width: 100%;
+    height: 10%;
+}
+
+.pages .container-center .posts{
+    width: 100%;
+    height: 90%;
+}
+
+.pages .container-center .top ul{
+    display: flex;
+    list-style: none;
+}
+
+.pages .container-center .top ul li{
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.pages .container-center .top ul li:hover{
+    background-color: #424769;
+}
+.pages .container-center .top ul li a{
+    text-decoration: none;
+    color: #e4e4e4e4;
+}
+.pages .container-center .top ul li img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    display: flex;
+}
