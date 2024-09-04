@@ -31,3 +31,7 @@
     border-radius: 50px;
     display: flex;
 }
+
+.pages .container-center .posts{
+    overflow-y: scroll;
+}
