@@ -1,13 +1,13 @@
 
 /* 
 */
-
+/* tamanho da area do side bar esquerdo que contem o perfil do usuario */
 .pages .container-left .left-perfil{
     width: 100%;
     height: 15%;
     display: flex;
 }
-
+/* area com botoes para navegar pelo site */
 .pages .container-left .left-abas{
     width: 100%;
     height: 85%;
@@ -15,7 +15,7 @@
 
 /* 
 */
-
+    /* ajustando a escala e posicao da img na sidebar */
 .pages .container-left .left-perfil .left-imagem{
     width: 25%;
     height: 100%;
@@ -24,26 +24,26 @@
     justify-content: center;
     align-items: center;
 }
-
+/* ajustando o tamanho e borda da imagem */
 .pages .container-left .left-perfil .left-imagem img{
     width: 60px;
     height: 60px;
     border-radius: 50px;
 }
-
+/* ajustando o nome do user na side bar */
 .pages .container-left .left-perfil .left-user{
     width: 75%;
     height: 100%;
     font-size: 30px;
     padding: 10px;
-    display: flex;
+    display: flex; /* ajustando o conteudo para deixar tudo alinhado a esquerda*/
     justify-content: left;
     align-items: center;
 }
 
 .pages .container-left .left-perfil .left-user a{
     color: #ffffffff;
-    text-decoration: none;
+    text-decoration: none; /* deixando os links sem decoracao*/
 }
 
 /* 
@@ -51,14 +51,14 @@
 
 .pages .container-left .left-abas{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  /* deixando os botoes no centro da side bar*/
+    align-items: center;    
 }
 
 .pages .container-left .left-abas ul{
     justify-content: center;
     align-items: center;
-    list-style: none;
+    list-style: none; /*tirando o estilo de lista*/
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .pages .container-left .left-abas ul li a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /* underlina quando passar por cima dos links*/
 }
 
 .pages .container-left .left-abas .here{
@@ -84,7 +84,7 @@
     background-color: #9747FF;
     color: #ffffffff;
     border-radius: 14px;
-    width: 100%;
+    width: 100%; /* ajustando o botao de new post*/
     height: 100%;
     font-size: 32px;
     font-weight: bold;

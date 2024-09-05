@@ -1,3 +1,4 @@
+/* ajustando o tamanho da aba de pesquisa */
 .pages .container-right .pesquisa{
     width: 100%;
     height: 15%;
@@ -5,7 +6,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* ajustando o tamanho da aba para sugestoes de perfis */
 .pages .container-right .sugestoes{
     width: 100%;
     height: 85%;
@@ -15,11 +16,11 @@
 }
  /* 
  */
-
+/* ajustando o botao para pesquisa */
  .pages .container-right .pesquisa .botao-pesquisa{
     background-color: #424769;
     color: #ffffffff;
-    border-radius: 20px;
+    border-radius: 20px; /* cria uma borda no botao*/
     height: 50%;
     width: 80%;
     font-size: 20px;
@@ -27,7 +28,7 @@
 
  /* 
   */
-
+/* ajustando o tamanho da aba para pessoas sugeridas */
  .pages .container-right .sugestoes .pessoas-sugeridas{
     width: 80%;
     height: 80%;
@@ -36,6 +37,7 @@
     text-align: center;
  }
 
+ /* ajustando o texto da aba para pessoas sugeridas */
 .pages .container-right .sugestoes .pessoas-sugeridas h1{
     font-size: 20px;
     font-weight: 300;
@@ -44,8 +46,9 @@
     text-align: left;
 }
 
+/* linha colorida */
 .pages .container-right .sugestoes .pessoas-sugeridas hr{
-    display: inline-block;
+    display: inline-block; /* faz a linha ficar na horizontal */
     margin: 0;
     width: 80%; /* Ajuste a largura conforme necessário */
     border: 1px solid #2D3250;

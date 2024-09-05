@@ -1,14 +1,15 @@
+/* ajustando a area seguindo e time-line */
 .pages .container-center .top{
     width: 100%;
     height: 10%;
     border-bottom: 1px solid #424769;
 }
-
+/* ajustando a area dos posts */
 .pages .container-center .posts{
     width: 100%;
     height: 90%;
 }
-
+/* definindo o posicionamento da tl e following*/
 .pages .container-center .top ul{
     display: flex;
     list-style: none;
@@ -20,44 +21,46 @@
     padding: 15px;
     margin-right: 15px;
 }
-
+/* mudar a cor quando passar em cima da tl ou following */
 .pages .container-center .top ul li:hover{
     background-color: #424769;
 }
+/* mudando a decoracao dos links */
 .pages .container-center .top ul li a{
     text-decoration: none;
     color: #ffffffff;
 }
+/* mudando a imagem de logo */
 .pages .container-center .top ul li img{
     width: 50px;
     height: 50px;
     border-radius: 50px;
     display: flex;
 }
-
+/* permitir que a pagina passe dos limites de altura */
 .pages .container-center .posts{
     overflow-y: scroll;
     margin-top: 10px;
 }
-
+/* criar uma area para armazenar os tweets */
 .pages .container-center .posts .posts-layouts .posts-perfil{
     width: 100%;
     display: flex;
 }
-
+/* ajustando a fonte que vai conter o nome de usuario no freed */
 .pages .container-center .posts .posts-layouts .posts-perfil h2{
     font-size: 16px;
     margin-left: 10px;
     text-align: center;
 }
-
+/* ajustando a imagem do user */
 .pages .container-center .posts .posts-layouts .posts-perfil img{
     width: 50px;
     height: 50px;
     border-radius: 50px;
     margin-left: 12px;
 }
-
+/* ajustando a divisao dos botoes no freed */
 .pages .container-center .posts .interacao{
     display: flex;
     justify-content: center;
@@ -66,40 +69,42 @@
     border-bottom: 1px solid #424769;
 }
 
+/* retirando o fundo dos botões */
 .pages .container-center .posts .interacao button{
     background: none;
 }
-
+/* ajustando o tamanho da imagem no botao */
 .pages .container-center .posts .interacao .comentario img{
     height: 30px;
     width: 30px;
     margin-top: 10px;
 }
-
+/* ajustando o tamanho da imagem no botao */
 .pages .container-center .posts .interacao .refreed img{
     height: 30px;
     width: 30px;
     margin-top: 10px;
 }
-
+/* ajustando o tamanho da imagem no botao */
 .pages .container-center .posts .interacao .like img{
     height: 30px;
     width: 30px;
     margin-top: 10px;
 }
-
+/* ajustando a divisao de espaco nos botoes */
 .pages .container-center .posts .interacao .comentario{
     height: 50px;
     width: 33%;
     text-align: center;
 }
+/* ajustando a divisao de espaco nos botoes */
 
 .pages .container-center .posts .interacao .refreed{
     height: 50px;
     width: 34%;
     text-align: center;
 }
-
+/* ajustando a divisao de espaco nos botoes */
 .pages .container-center .posts .interacao .like{
     height: 50px;
     width: 33%;

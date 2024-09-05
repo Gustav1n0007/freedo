@@ -1,28 +1,30 @@
+/* divindo o perfil para conter as imagens e bio */
 .pages .container-center .header-perfil{
     width: 100%;
     height: 21%;
 }
-
+/* area da header */
 .pages .container-center .header-perfil .header{
-    position: relative;
+    position: relative; /*Fazer com que uma imagem possa sobrepor a header*/
     width: 960px;
     height: 142.94px;
 }
 
 .pages .container-center .header-perfil .foto-perfil{
-    position:absolute;
+    position:absolute; /* Fazer com que a pfp sobreponha a header*/
     top: 100px;
     left: 26%;
     width: 200px;
     height: 200px;
-    border-radius: 5px solid #2D3250;
+    border-radius: 5px solid #2D3250; /* borda para fazer com que a pfp fique flutuando sobre a outra*/
 }
+/* ajustando o tamanho da imagem  */
 .pages .container-center .header-perfil .foto-perfil img{
     border-radius: 50px;
     margin-left: 5%;
     border: 5px solid #2D3250;
 }
-
+/* ajustando o local do nome de usuario no perfil */
 .pages .container-center .user-perfil{
     width: 100%;
     height: 10%;
@@ -32,6 +34,7 @@
     padding-right: 10px;
 }
 
+/* permitindo que a area com post passe dos limites de altura */
 .pages .container-center .user-posts{
     width: 100%;
     height: 59%;
@@ -39,11 +42,12 @@
 }
 /* 
 */
+/* area do botao para seguir no perfil */
 .pages .container-center .user-perfil .user-follow{
     width: 8%;
     height: 100%;
 }
-
+/* predefinicoes de cor para o botao de follow */
 .pages .container-center .user-perfil .user-follow button{
     color: #ffffffff;
     background-color: #424769;
@@ -53,10 +57,12 @@
     height: 50%;
     font-weight: bolder;
 }
+/* area do botao de mensagens */
 .pages .container-center .user-perfil .user-message{
     width: 8%;
     height: 100%;
 }
+/* predefinicoes para o botao de mensagens */
 .pages .container-center .user-perfil .user-message button{
     color: #ffffffff;
     background-color: #424769; 
@@ -67,7 +73,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* ajustando o nome do usuario no perfil */
 .pages .container-center .user-perfil .username-perfil{
     width: 80%;
     height: 100%;
@@ -76,19 +82,19 @@
     align-items: center;
     padding: 5px;
 }
-
+/* ajustando a fonte do nome de usuario */
 .pages .container-center .user-perfil .username-perfil h2{
     font-size: 16px;
     padding-left:1%;
 }
-
+/* definindo a area para a bio */
 .pages .container-center .biografia{
     width: 100%;
     height: 10%;
     padding: 15px;
     
 }
-
+/* definindo o tamanho para as fontes do texto da bio */
 .pages .container-center .biografia h3{
     color: #ffffffff;
     padding: 10px;
@@ -96,8 +102,4 @@
     font-size: 12px;
     font-weight: 300;
     width: 80%;
-}
-
-.pages .container-center .user-posts p{
-    overflow-y: scroll;
 }

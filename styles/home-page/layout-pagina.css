@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* padronizando as fontes no site inteiro */
 html{
     font-family: 'Inter', 'sans-serif';
     font-weight: 500;
@@ -11,6 +12,7 @@ html{
     color: #FFFFFF;
 }
 
+/* padronizando fontes para tweets */
 h3{
     font-family: 'Jost';
     margin-left: 5%;
@@ -20,10 +22,12 @@ h3{
     font-weight: 200;
 }
 
+/* padronizando as cores de escritas secundarias */
 span{
     color: #79747E;
 }
 
+/* escolhendo o tamanho das paginas em geral */
 .pages{
     width: 100vw;
     height: 100vh;
@@ -31,18 +35,21 @@ span{
     display: flex;
 }
 
+/* tamanho do side-bar esquerdo */
 .pages .container-left{
     border-right: 1px solid #424769;
     width: 25%;
     height: 100%;
 }
 
+/* tamanho do feed */
 .pages .container-center{
     border-right: 1px solid #424769;
     width: 50%;
     height: 100%;
 }
 
+/* tamanho do side-bar direito */
 .pages .container-right{
     width: 25%;
     height: 100%;
