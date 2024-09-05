@@ -11,6 +11,15 @@ html{
     color: #FFFFFF;
 }
 
+h3{
+    font-family: 'Jost';
+    margin-left: 5%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+}
+
 span{
     color: #79747E;
 }

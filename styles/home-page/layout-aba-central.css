@@ -1,11 +1,11 @@
 .pages .container-center .top{
     width: 100%;
-    height: 10%;
+    height: 12%;
 }
 
 .pages .container-center .posts{
     width: 100%;
-    height: 90%;
+    height: 88%;
 }
 
 .pages .container-center .top ul{
@@ -34,4 +34,70 @@
 
 .pages .container-center .posts{
     overflow-y: scroll;
+}
+
+.pages .container-center .posts .posts-perfil{
+    width: 100%;
+    display: flex;
+}
+
+.pages .container-center .posts .posts-perfil h2{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages .container-center .posts .posts-perfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 12px;
+}
+
+.pages .container-center .posts .interacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #424769;
+}
+
+.pages .container-center .posts .interacao button{
+    background: none;
+}
+
+.pages .container-center .posts .interacao .comentario img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.pages .container-center .posts .interacao .refreed img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.pages .container-center .posts .interacao .like img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.pages .container-center .posts .interacao .comentario{
+    height: 50px;
+    width: 33%;
+    text-align: center;
+}
+
+.pages .container-center .posts .interacao .refreed{
+    height: 50px;
+    width: 34%;
+    text-align: center;
+}
+
+.pages .container-center .posts .interacao .like{
+    height: 50px;
+    width: 33%;
+    text-align: center;
 }

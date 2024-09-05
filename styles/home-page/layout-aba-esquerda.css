@@ -66,6 +66,15 @@
     color: #ffffffff;    
 }
 
+.pages .container-left .left-abas ul li a:hover{
+    text-decoration: underline;
+}
+
+.pages .container-left .left-abas .here{
+    font-weight: bolder;
+    text-decoration: underline #9747FF;
+}
+
 .pages .container-left .left-abas ul li .new-post{
     background-color: #9747FF;
     color: #ffffffff;
