@@ -18,7 +18,7 @@
 }
 
 .pages .container-center .top ul li{
-    padding: 5%;
+    padding: 1%;
     margin-right: 10%;
 }
 /* mudar a cor quando passar em cima da tl ou following */
@@ -33,7 +33,7 @@
 /* mudando a imagem de logo */
 .pages .container-center .top ul li img{
     width: 6vw;
-    height: 6vh;
+    height: 10vh;
     border-radius: 50px;
     display: flex;
 }
@@ -49,15 +49,15 @@
 }
 /* ajustando a fonte que vai conter o nome de usuario no freed */
 .pages .container-center .posts .posts-layouts .posts-perfil h2{
-    font-size: 1.8vw;
-    margin-left: 10px;
+    font-size: 1.2vw;
+    margin-left: 0.21%;
     text-align: center;
 }
 /* ajustando a imagem do user */
 .pages .container-center .posts .posts-layouts .posts-perfil img{
-    width: 5vw;
-    height: 5vh;
-    border-radius: 50px;
+    width: 3vw;
+    height: auto;
+    border-radius: 100px;
     margin-left: 18%;
 }
 /* ajustando a divisao dos botoes no freed */
@@ -82,7 +82,7 @@
 /* ajustando o tamanho da imagem no botao */
 .pages .container-center .posts .interacao .refreed img{
     height: 3vh;
-    width: 3vw;
+    width: 1vw;
     margin-top: 10%;
 }
 /* ajustando o tamanho da imagem no botao */

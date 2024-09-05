@@ -34,7 +34,7 @@
 .pages .container-left .left-perfil .left-user{
     width: 75%;
     height: 100%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 5%;
     display: flex; /* ajustando o conteudo para deixar tudo alinhado a esquerda*/
     justify-content: left;
@@ -63,7 +63,7 @@
 }
 
 .pages .container-left .left-abas ul li{
-    padding: 5%;
+    padding: 10%;
 }
 
 .pages .container-left .left-abas ul li a{

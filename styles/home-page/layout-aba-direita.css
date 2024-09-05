@@ -23,7 +23,7 @@
     border-radius: 20px; /* cria uma borda no botao*/
     height: 50%;
     width: 80%;
-    font-size: 2vw;
+    font-size: 1.5vw;
  }
 
  /* 
@@ -39,10 +39,10 @@
 
  /* ajustando o texto da aba para pessoas sugeridas */
 .pages .container-right .sugestoes .pessoas-sugeridas h1{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 300;
-    padding-top: 15%;
-    padding-left: 15%;
+    padding-top: 5%;
+    padding-left: 5%;
     text-align: left;
 }
 
