@@ -19,23 +19,23 @@
 .pages .container-left .left-perfil .left-imagem{
     width: 25%;
     height: 100%;
-    padding: 10px;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /* ajustando o tamanho e borda da imagem */
 .pages .container-left .left-perfil .left-imagem img{
-    width: 60px;
-    height: 60px;
+    width: auto;
+    height: 100%;
     border-radius: 50px;
 }
 /* ajustando o nome do user na side bar */
 .pages .container-left .left-perfil .left-user{
     width: 75%;
     height: 100%;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 2vw;
+    padding: 5%;
     display: flex; /* ajustando o conteudo para deixar tudo alinhado a esquerda*/
     justify-content: left;
     align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .pages .container-left .left-abas ul li{
-    padding: 20px;
+    padding: 5%;
 }
 
 .pages .container-left .left-abas ul li a{
@@ -86,7 +86,7 @@
     border-radius: 14px;
     width: 100%; /* ajustando o botao de new post*/
     height: 100%;
-    font-size: 32px;
+    font-size: 1vw;
     font-weight: bold;
     padding: 15px;
 }
